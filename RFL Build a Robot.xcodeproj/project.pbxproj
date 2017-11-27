@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0F82181FCC6C5A00269FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F82171FCC6C5A00269FC3 /* main.m */; };
+		9A0F821B1FCC6C5A00269FC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F821A1FCC6C5A00269FC3 /* AppDelegate.m */; };
+		9A0F821E1FCC6C5A00269FC3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F821D1FCC6C5A00269FC3 /* FirstViewController.m */; };
+		9A0F82211FCC6C5A00269FC3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F82201FCC6C5A00269FC3 /* SecondViewController.m */; };
+		9A0F82241FCC6C5A00269FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F82221FCC6C5A00269FC3 /* Main.storyboard */; };
+		9A0F82261FCC6C5A00269FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F82251FCC6C5A00269FC3 /* Assets.xcassets */; };
+		9A0F82291FCC6C5A00269FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F82271FCC6C5A00269FC3 /* LaunchScreen.storyboard */; };
+		9A0F82341FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F82331FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m */; };
+		9A0F823F1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F823E1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A0F82301FCC6C5A00269FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0F820B1FCC6C5A00269FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0F82121FCC6C5A00269FC3;
+			remoteInfo = "RFL Build a Robot";
+		};
+		9A0F823B1FCC6C5B00269FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0F820B1FCC6C5A00269FC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0F82121FCC6C5A00269FC3;
+			remoteInfo = "RFL Build a Robot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A0F82131FCC6C5A00269FC3 /* RFL Build a Robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RFL Build a Robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0F82171FCC6C5A00269FC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A0F82191FCC6C5A00269FC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A0F821A1FCC6C5A00269FC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A0F821C1FCC6C5A00269FC3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9A0F821D1FCC6C5A00269FC3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9A0F821F1FCC6C5A00269FC3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		9A0F82201FCC6C5A00269FC3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		9A0F82231FCC6C5A00269FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A0F82251FCC6C5A00269FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A0F82281FCC6C5A00269FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A0F822A1FCC6C5A00269FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0F822F1FCC6C5A00269FC3 /* RFL Build a RobotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RFL Build a RobotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0F82331FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFL_Build_a_RobotTests.m; sourceTree = "<group>"; };
+		9A0F82351FCC6C5A00269FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0F823A1FCC6C5B00269FC3 /* RFL Build a RobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RFL Build a RobotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0F823E1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFL_Build_a_RobotUITests.m; sourceTree = "<group>"; };
+		9A0F82401FCC6C5B00269FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A0F82101FCC6C5A00269FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0F822C1FCC6C5A00269FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0F82371FCC6C5B00269FC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A0F820A1FCC6C5A00269FC3 = {
+			isa = PBXGroup;
+			children = (
+				9A0F82151FCC6C5A00269FC3 /* RFL Build a Robot */,
+				9A0F82321FCC6C5A00269FC3 /* RFL Build a RobotTests */,
+				9A0F823D1FCC6C5B00269FC3 /* RFL Build a RobotUITests */,
+				9A0F82141FCC6C5A00269FC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A0F82141FCC6C5A00269FC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F82131FCC6C5A00269FC3 /* RFL Build a Robot.app */,
+				9A0F822F1FCC6C5A00269FC3 /* RFL Build a RobotTests.xctest */,
+				9A0F823A1FCC6C5B00269FC3 /* RFL Build a RobotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A0F82151FCC6C5A00269FC3 /* RFL Build a Robot */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F82191FCC6C5A00269FC3 /* AppDelegate.h */,
+				9A0F821A1FCC6C5A00269FC3 /* AppDelegate.m */,
+				9A0F821C1FCC6C5A00269FC3 /* FirstViewController.h */,
+				9A0F821D1FCC6C5A00269FC3 /* FirstViewController.m */,
+				9A0F821F1FCC6C5A00269FC3 /* SecondViewController.h */,
+				9A0F82201FCC6C5A00269FC3 /* SecondViewController.m */,
+				9A0F82221FCC6C5A00269FC3 /* Main.storyboard */,
+				9A0F82251FCC6C5A00269FC3 /* Assets.xcassets */,
+				9A0F82271FCC6C5A00269FC3 /* LaunchScreen.storyboard */,
+				9A0F822A1FCC6C5A00269FC3 /* Info.plist */,
+				9A0F82161FCC6C5A00269FC3 /* Supporting Files */,
+			);
+			path = "RFL Build a Robot";
+			sourceTree = "<group>";
+		};
+		9A0F82161FCC6C5A00269FC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F82171FCC6C5A00269FC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A0F82321FCC6C5A00269FC3 /* RFL Build a RobotTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F82331FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m */,
+				9A0F82351FCC6C5A00269FC3 /* Info.plist */,
+			);
+			path = "RFL Build a RobotTests";
+			sourceTree = "<group>";
+		};
+		9A0F823D1FCC6C5B00269FC3 /* RFL Build a RobotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0F823E1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m */,
+				9A0F82401FCC6C5B00269FC3 /* Info.plist */,
+			);
+			path = "RFL Build a RobotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A0F82121FCC6C5A00269FC3 /* RFL Build a Robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0F82431FCC6C5B00269FC3 /* Build configuration list for PBXNativeTarget "RFL Build a Robot" */;
+			buildPhases = (
+				9A0F820F1FCC6C5A00269FC3 /* Sources */,
+				9A0F82101FCC6C5A00269FC3 /* Frameworks */,
+				9A0F82111FCC6C5A00269FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RFL Build a Robot";
+			productName = "RFL Build a Robot";
+			productReference = 9A0F82131FCC6C5A00269FC3 /* RFL Build a Robot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A0F822E1FCC6C5A00269FC3 /* RFL Build a RobotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0F82461FCC6C5B00269FC3 /* Build configuration list for PBXNativeTarget "RFL Build a RobotTests" */;
+			buildPhases = (
+				9A0F822B1FCC6C5A00269FC3 /* Sources */,
+				9A0F822C1FCC6C5A00269FC3 /* Frameworks */,
+				9A0F822D1FCC6C5A00269FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0F82311FCC6C5A00269FC3 /* PBXTargetDependency */,
+			);
+			name = "RFL Build a RobotTests";
+			productName = "RFL Build a RobotTests";
+			productReference = 9A0F822F1FCC6C5A00269FC3 /* RFL Build a RobotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A0F82391FCC6C5B00269FC3 /* RFL Build a RobotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0F82491FCC6C5B00269FC3 /* Build configuration list for PBXNativeTarget "RFL Build a RobotUITests" */;
+			buildPhases = (
+				9A0F82361FCC6C5B00269FC3 /* Sources */,
+				9A0F82371FCC6C5B00269FC3 /* Frameworks */,
+				9A0F82381FCC6C5B00269FC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0F823C1FCC6C5B00269FC3 /* PBXTargetDependency */,
+			);
+			name = "RFL Build a RobotUITests";
+			productName = "RFL Build a RobotUITests";
+			productReference = 9A0F823A1FCC6C5B00269FC3 /* RFL Build a RobotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0F820B1FCC6C5A00269FC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "University of Leeds";
+				TargetAttributes = {
+					9A0F82121FCC6C5A00269FC3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9A0F822E1FCC6C5A00269FC3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A0F82121FCC6C5A00269FC3;
+					};
+					9A0F82391FCC6C5B00269FC3 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A0F82121FCC6C5A00269FC3;
+					};
+				};
+			};
+			buildConfigurationList = 9A0F820E1FCC6C5A00269FC3 /* Build configuration list for PBXProject "RFL Build a Robot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A0F820A1FCC6C5A00269FC3;
+			productRefGroup = 9A0F82141FCC6C5A00269FC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A0F82121FCC6C5A00269FC3 /* RFL Build a Robot */,
+				9A0F822E1FCC6C5A00269FC3 /* RFL Build a RobotTests */,
+				9A0F82391FCC6C5B00269FC3 /* RFL Build a RobotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0F82111FCC6C5A00269FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0F82291FCC6C5A00269FC3 /* LaunchScreen.storyboard in Resources */,
+				9A0F82261FCC6C5A00269FC3 /* Assets.xcassets in Resources */,
+				9A0F82241FCC6C5A00269FC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0F822D1FCC6C5A00269FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0F82381FCC6C5B00269FC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A0F820F1FCC6C5A00269FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0F82211FCC6C5A00269FC3 /* SecondViewController.m in Sources */,
+				9A0F821B1FCC6C5A00269FC3 /* AppDelegate.m in Sources */,
+				9A0F821E1FCC6C5A00269FC3 /* FirstViewController.m in Sources */,
+				9A0F82181FCC6C5A00269FC3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0F822B1FCC6C5A00269FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0F82341FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0F82361FCC6C5B00269FC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0F823F1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A0F82311FCC6C5A00269FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0F82121FCC6C5A00269FC3 /* RFL Build a Robot */;
+			targetProxy = 9A0F82301FCC6C5A00269FC3 /* PBXContainerItemProxy */;
+		};
+		9A0F823C1FCC6C5B00269FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0F82121FCC6C5A00269FC3 /* RFL Build a Robot */;
+			targetProxy = 9A0F823B1FCC6C5B00269FC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A0F82221FCC6C5A00269FC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0F82231FCC6C5A00269FC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A0F82271FCC6C5A00269FC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0F82281FCC6C5A00269FC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A0F82411FCC6C5B00269FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A0F82421FCC6C5B00269FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A0F82441FCC6C5B00269FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RFL Build a Robot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.RFL-Build-a-Robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0F82451FCC6C5B00269FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RFL Build a Robot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.RFL-Build-a-Robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0F82471FCC6C5B00269FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RFL Build a RobotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.RFL-Build-a-RobotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFL Build a Robot.app/RFL Build a Robot";
+			};
+			name = Debug;
+		};
+		9A0F82481FCC6C5B00269FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RFL Build a RobotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.RFL-Build-a-RobotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFL Build a Robot.app/RFL Build a Robot";
+			};
+			name = Release;
+		};
+		9A0F824A1FCC6C5B00269FC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RFL Build a RobotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.RFL-Build-a-RobotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RFL Build a Robot";
+			};
+			name = Debug;
+		};
+		9A0F824B1FCC6C5B00269FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RFL Build a RobotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.RFL-Build-a-RobotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RFL Build a Robot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A0F820E1FCC6C5A00269FC3 /* Build configuration list for PBXProject "RFL Build a Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0F82411FCC6C5B00269FC3 /* Debug */,
+				9A0F82421FCC6C5B00269FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0F82431FCC6C5B00269FC3 /* Build configuration list for PBXNativeTarget "RFL Build a Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0F82441FCC6C5B00269FC3 /* Debug */,
+				9A0F82451FCC6C5B00269FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A0F82461FCC6C5B00269FC3 /* Build configuration list for PBXNativeTarget "RFL Build a RobotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0F82471FCC6C5B00269FC3 /* Debug */,
+				9A0F82481FCC6C5B00269FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A0F82491FCC6C5B00269FC3 /* Build configuration list for PBXNativeTarget "RFL Build a RobotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0F824A1FCC6C5B00269FC3 /* Debug */,
+				9A0F824B1FCC6C5B00269FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0F820B1FCC6C5A00269FC3 /* Project object */;
+}
