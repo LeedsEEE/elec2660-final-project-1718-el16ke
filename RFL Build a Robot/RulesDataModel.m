@@ -86,20 +86,97 @@
         ConnectionDangers.RulesSubSection_1 = @"Failsafes";
         ConnectionDangers.RulesSubSection_2 = @"Autonomy";
         ConnectionDangers.SubSectionTitle = @"Connection Dangers";
+////////////////////////////////////////////////////////////////////Section 5///////////////////////////////////////////
+        self.Power = [NSMutableArray array];
         
+        RulesPush *BatteryType = [[RulesPush alloc] init];
+        BatteryType.RulesSubSection_0 = @"High Risk Battery Types";
+        BatteryType.RulesSubSection_1 = @"Low Risk Battery Types";
+        BatteryType.RulesSubSection_2 = @"Disallowed Battery Types";
+        BatteryType.SubSectionTitle = @"Battery Types";
         
+        RulesPush *BatterySafety = [[RulesPush alloc] init];
+        BatterySafety.RulesSubSection_0 = @"Battery Protection";
+        BatterySafety.RulesSubSection_1 = @"Maximum Power";
+        BatterySafety.SubSectionTitle = @"Battery Safety";
         
+        RulesPush *Wiring = [[RulesPush alloc] init];
+        Wiring.RulesSubSection_0 = @"Fusing";
+        Wiring.RulesSubSection_1 = @"Wiring";
+        Wiring.RulesSubSection_2 = @"Connectors";
+        Wiring.RulesSubSection_3 = @"Safety Link";
+        Wiring.SubSectionTitle = @"Battery Safety";
+////////////////////////////////////////////////////////////////////Section 6///////////////////////////////////////////
+        self.Pneumatics = [NSMutableArray array];
         
+        RulesPush *PneumaticLimits = [[RulesPush alloc] init];
+        PneumaticLimits.RulesSubSection_0 = @"Allowed Gasses";
+        PneumaticLimits.RulesSubSection_1 = @"Pressure Limit";
+        PneumaticLimits.RulesSubSection_2 = @"Volume Limit";
+        PneumaticLimits.SubSectionTitle = @"Pneumatic Limits";
         
+        RulesPush *Valves = [[RulesPush alloc] init];
+        Valves.RulesSubSection_0 = @"Isolation Valve";
+        Valves.RulesSubSection_1 = @"Pressure Release";
+        Valves.SubSectionTitle = @"Valves";
         
+        RulesPush *Rating = [[RulesPush alloc] init];
+        Rating.RulesSubSection_0 = @"Component";
+        Rating.RulesSubSection_1 = @"System";
+        Rating.SubSectionTitle = @"Rating";
+////////////////////////////////////////////////////////////////////Section 7///////////////////////////////////////////
+        self.WeaponsAndArmour = [NSMutableArray array];
         
+        RulesPush *WeaponRescrictions = [[RulesPush alloc] init];
+        WeaponRescrictions.RulesSubSection_0 = @"Rotational Weapons";
+        WeaponRescrictions.SubSectionTitle = @"Weapon Rescrictions";
         
+        RulesPush *BannedWeapons = [[RulesPush alloc] init];
+        BannedWeapons.RulesSubSection_0 = @"Non Visible Damage";
+        BannedWeapons.RulesSubSection_1 = @"Combat Stopping";
+        BannedWeapons.RulesSubSection_2 = @"Liquid";
+        BannedWeapons.RulesSubSection_3 = @"Fire and Heat";
+        BannedWeapons.RulesSubSection_4 = @"Explosives";
+        BannedWeapons.RulesSubSection_5 = @"Implosives";
+        BannedWeapons.RulesSubSection_6 = @"Visibility";
+        BannedWeapons.SubSectionTitle = @"Banned Weapons";
         
-        
-        
-        
+        RulesPush *Modularity = [[RulesPush alloc] init];
+        Modularity.RulesSubSection_0 = @"Weight and Size";
+        Modularity.RulesSubSection_1 = @"Cluster Robot";
+        Modularity.SubSectionTitle = @"Modularity";
+/////////////////////////////////////////////////////////////////End of Sections///////////////////////////////////////
         
         [self.GeneralRules addObject:Teams];
+        [self.GeneralRules addObject:RuleEnforcement];
+        [self.GeneralRules addObject:RuleChanges];
+        
+        [self.PhysicalLimitations addObject:SizeLimit];
+        [self.PhysicalLimitations addObject:WeightLimit];
+        
+        [self.Materials addObject:GeneralMaterial];
+        [self.Materials addObject:FullyAllowedMaterials];
+        [self.Materials addObject:AllowedMetals];
+        [self.Materials addObject:AllowedPlastic];
+        [self.Materials addObject:BannedMaterials];
+        
+        [self.Connection addObject:GeneralConnectivity];
+        [self.Connection addObject:ConnectionDangers];
+        
+        [self.Power addObject:BatteryType];
+        [self.Power addObject:BatterySafety];
+        [self.Power addObject:Wiring];
+        
+        [self.Pneumatics addObject:PneumaticLimits];
+        [self.Pneumatics addObject:Valves];
+        [self.Pneumatics addObject:Rating];
+        
+        [self.WeaponsAndArmour addObject:WeaponRescrictions];
+        [self.WeaponsAndArmour addObject:BannedWeapons];
+        [self.WeaponsAndArmour addObject:Modularity];
+
+
+        
     }
     return self;
 }
