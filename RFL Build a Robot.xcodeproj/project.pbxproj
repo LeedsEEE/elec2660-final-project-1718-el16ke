@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0ABD881FD1868F009EF4CF /* RulesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0ABD871FD1868F009EF4CF /* RulesTableViewController.m */; };
+		9A0ABD8B1FD186B0009EF4CF /* RulesDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0ABD8A1FD186B0009EF4CF /* RulesDataModel.m */; };
+		9A0ABD8E1FD18818009EF4CF /* RulesPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0ABD8D1FD18818009EF4CF /* RulesPush.m */; };
 		9A0F82181FCC6C5A00269FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F82171FCC6C5A00269FC3 /* main.m */; };
 		9A0F821B1FCC6C5A00269FC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F821A1FCC6C5A00269FC3 /* AppDelegate.m */; };
 		9A0F821E1FCC6C5A00269FC3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F821D1FCC6C5A00269FC3 /* FirstViewController.m */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A0ABD861FD1868F009EF4CF /* RulesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesTableViewController.h; sourceTree = "<group>"; };
+		9A0ABD871FD1868F009EF4CF /* RulesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesTableViewController.m; sourceTree = "<group>"; };
+		9A0ABD891FD186B0009EF4CF /* RulesDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesDataModel.h; sourceTree = "<group>"; };
+		9A0ABD8A1FD186B0009EF4CF /* RulesDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesDataModel.m; sourceTree = "<group>"; };
+		9A0ABD8C1FD18818009EF4CF /* RulesPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesPush.h; sourceTree = "<group>"; };
+		9A0ABD8D1FD18818009EF4CF /* RulesPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesPush.m; sourceTree = "<group>"; };
 		9A0F82131FCC6C5A00269FC3 /* RFL Build a Robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RFL Build a Robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0F82171FCC6C5A00269FC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A0F82191FCC6C5A00269FC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +120,12 @@
 				9A0F821F1FCC6C5A00269FC3 /* SecondViewController.h */,
 				9A0F82201FCC6C5A00269FC3 /* SecondViewController.m */,
 				9A0F82221FCC6C5A00269FC3 /* Main.storyboard */,
+				9A0ABD861FD1868F009EF4CF /* RulesTableViewController.h */,
+				9A0ABD871FD1868F009EF4CF /* RulesTableViewController.m */,
+				9A0ABD8C1FD18818009EF4CF /* RulesPush.h */,
+				9A0ABD8D1FD18818009EF4CF /* RulesPush.m */,
+				9A0ABD891FD186B0009EF4CF /* RulesDataModel.h */,
+				9A0ABD8A1FD186B0009EF4CF /* RulesDataModel.m */,
 				9A0F82251FCC6C5A00269FC3 /* Assets.xcassets */,
 				9A0F82271FCC6C5A00269FC3 /* LaunchScreen.storyboard */,
 				9A0F822A1FCC6C5A00269FC3 /* Info.plist */,
@@ -279,9 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0F82211FCC6C5A00269FC3 /* SecondViewController.m in Sources */,
+				9A0ABD881FD1868F009EF4CF /* RulesTableViewController.m in Sources */,
 				9A0F821B1FCC6C5A00269FC3 /* AppDelegate.m in Sources */,
+				9A0ABD8E1FD18818009EF4CF /* RulesPush.m in Sources */,
 				9A0F821E1FCC6C5A00269FC3 /* FirstViewController.m in Sources */,
 				9A0F82181FCC6C5A00269FC3 /* main.m in Sources */,
+				9A0ABD8B1FD186B0009EF4CF /* RulesDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +533,7 @@
 				9A0F82451FCC6C5B00269FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A0F82461FCC6C5B00269FC3 /* Build configuration list for PBXNativeTarget "RFL Build a RobotTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +542,7 @@
 				9A0F82481FCC6C5B00269FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A0F82491FCC6C5B00269FC3 /* Build configuration list for PBXNativeTarget "RFL Build a RobotUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +551,7 @@
 				9A0F824B1FCC6C5B00269FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
