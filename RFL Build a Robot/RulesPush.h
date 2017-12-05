@@ -23,5 +23,6 @@
 @property (nonatomic, strong) NSString *RulesSubSection_9;
 
 @property (nonatomic, strong) NSString *SubSectionTitle;
+@property (nonatomic,strong) NSString *SubSectionNumber;
 
 @end

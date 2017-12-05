@@ -19,6 +19,7 @@
 		9A0F82291FCC6C5A00269FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F82271FCC6C5A00269FC3 /* LaunchScreen.storyboard */; };
 		9A0F82341FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F82331FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m */; };
 		9A0F823F1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F823E1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m */; };
+		9A6FDFD31FD6DB6100A3B898 /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6FDFD21FD6DB6100A3B898 /* RulesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		9A0F823A1FCC6C5B00269FC3 /* RFL Build a RobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RFL Build a RobotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0F823E1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFL_Build_a_RobotUITests.m; sourceTree = "<group>"; };
 		9A0F82401FCC6C5B00269FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6FDFD11FD6DB6100A3B898 /* RulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesViewController.h; sourceTree = "<group>"; };
+		9A6FDFD21FD6DB6100A3B898 /* RulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				9A0F82201FCC6C5A00269FC3 /* SecondViewController.m */,
 				9A0F82221FCC6C5A00269FC3 /* Main.storyboard */,
 				9A0ABD861FD1868F009EF4CF /* RulesTableViewController.h */,
+				9A6FDFD11FD6DB6100A3B898 /* RulesViewController.h */,
+				9A6FDFD21FD6DB6100A3B898 /* RulesViewController.m */,
 				9A0ABD871FD1868F009EF4CF /* RulesTableViewController.m */,
 				9A0ABD8C1FD18818009EF4CF /* RulesPush.h */,
 				9A0ABD8D1FD18818009EF4CF /* RulesPush.m */,
@@ -295,6 +300,7 @@
 			files = (
 				9A0F82211FCC6C5A00269FC3 /* SecondViewController.m in Sources */,
 				9A0ABD881FD1868F009EF4CF /* RulesTableViewController.m in Sources */,
+				9A6FDFD31FD6DB6100A3B898 /* RulesViewController.m in Sources */,
 				9A0F821B1FCC6C5A00269FC3 /* AppDelegate.m in Sources */,
 				9A0ABD8E1FD18818009EF4CF /* RulesPush.m in Sources */,
 				9A0F821E1FCC6C5A00269FC3 /* FirstViewController.m in Sources */,

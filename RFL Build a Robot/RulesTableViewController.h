@@ -12,6 +12,7 @@
 
 @interface RulesTableViewController : UITableViewController
 
+
 @property (strong, nonatomic) RulesDataModel *RulesData;
 
 @end
