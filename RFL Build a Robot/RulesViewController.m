@@ -18,7 +18,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
     self.RulesContentLabel.text = self.RulesPush.content;
+    
+    [_RulesContentLabel sizeToFit];
+    
+    self.RulesTitleLabel.title = self.RulesPush.SubSectionTitle;
     
 }
 

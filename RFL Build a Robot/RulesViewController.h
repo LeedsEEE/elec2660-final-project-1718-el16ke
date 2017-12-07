@@ -13,6 +13,8 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *RulesContentLabel;
 
+@property (weak, nonatomic) IBOutlet UINavigationItem *RulesTitleLabel;
+
 @property (strong, nonatomic) RulesPush *RulesPush;
 
 @end
