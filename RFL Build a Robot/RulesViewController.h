@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RulesPush.h"
 
 @interface RulesViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *RulesContentLabel;
+
+@property (strong, nonatomic) RulesPush *RulesPush;
 
 @end

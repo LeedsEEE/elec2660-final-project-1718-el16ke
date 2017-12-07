@@ -194,14 +194,76 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    
+    
+    if ([[segue identifier] isEqualToString:@"ShowRulesContent"]){
+        
+        RulesViewController *destinationViewController = [segue destinationViewController];
+        
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        
+        if (indexPath.section == 0){ //General Rules
+            
+            RulesPush *tempPush = [self.RulesData.GeneralRules objectAtIndex:indexPath.row];
+            destinationViewController.RulesPush =tempPush;
+            
+        }
+        
+        if (indexPath.section == 1){ //Physical Limitations
+            
+            RulesPush *tempPush = [self.RulesData.PhysicalLimitations objectAtIndex:indexPath.row];
+            destinationViewController.RulesPush =tempPush;
+            
+        }
+        
+        if (indexPath.section == 2){ //Materials
+            
+            RulesPush *tempPush = [self.RulesData.Materials objectAtIndex:indexPath.row];
+            destinationViewController.RulesPush =tempPush;
+            
+        }
+        
+        if (indexPath.section == 3){ //Connection
+            
+            RulesPush *tempPush = [self.RulesData.Connection objectAtIndex:indexPath.row];
+            destinationViewController.RulesPush =tempPush;
+            
+        }
+        
+        if (indexPath.section == 4){ //Power
+            
+            RulesPush *tempPush = [self.RulesData.Power objectAtIndex:indexPath.row];
+            destinationViewController.RulesPush =tempPush;
+            
+        }
+        
+        if (indexPath.section == 5){ //Pneumatics
+            
+            RulesPush *tempPush = [self.RulesData.Pneumatics objectAtIndex:indexPath.row];
+            destinationViewController.RulesPush =tempPush;
+            
+        }
+        
+        if (indexPath.section == 6){ //Weapons and Armour
+            
+            RulesPush *tempPush = [self.RulesData.WeaponsAndArmour objectAtIndex:indexPath.row];
+            destinationViewController.RulesPush =tempPush;
+            
+        }
+        
+    }
+    
+    
+    
+    
 }
-*/
+
 
 @end

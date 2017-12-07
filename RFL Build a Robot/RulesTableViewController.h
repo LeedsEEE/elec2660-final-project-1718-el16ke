@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FirstViewController.h"
+#import "RulesViewController.h"
 #import "RulesDataModel.h"
 
 @interface RulesTableViewController : UITableViewController
