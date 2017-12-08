@@ -16,6 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+  //  self.tabBarController.moreNavigationController.navigationBar.tintColor = [UIColor grayColor];
+    
     // Override point for customization after application launch.
     return YES;
 }
