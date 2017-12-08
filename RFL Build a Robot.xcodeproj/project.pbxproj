@@ -10,18 +10,17 @@
 		9A0ABD881FD1868F009EF4CF /* RulesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0ABD871FD1868F009EF4CF /* RulesTableViewController.m */; };
 		9A0ABD8B1FD186B0009EF4CF /* RulesDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0ABD8A1FD186B0009EF4CF /* RulesDataModel.m */; };
 		9A0ABD8E1FD18818009EF4CF /* RulesPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0ABD8D1FD18818009EF4CF /* RulesPush.m */; };
-		9A0CC4D11FD71E3C00978EE9 /* GeneralRulesPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CC4D01FD71E3C00978EE9 /* GeneralRulesPush.m */; };
-		9A0CC4D41FD71E6400978EE9 /* GeneralRulesDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0CC4D31FD71E6400978EE9 /* GeneralRulesDataModel.m */; };
 		9A0F82181FCC6C5A00269FC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F82171FCC6C5A00269FC3 /* main.m */; };
 		9A0F821B1FCC6C5A00269FC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F821A1FCC6C5A00269FC3 /* AppDelegate.m */; };
-		9A0F821E1FCC6C5A00269FC3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F821D1FCC6C5A00269FC3 /* FirstViewController.m */; };
-		9A0F82211FCC6C5A00269FC3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F82201FCC6C5A00269FC3 /* SecondViewController.m */; };
 		9A0F82241FCC6C5A00269FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F82221FCC6C5A00269FC3 /* Main.storyboard */; };
 		9A0F82261FCC6C5A00269FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F82251FCC6C5A00269FC3 /* Assets.xcassets */; };
 		9A0F82291FCC6C5A00269FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F82271FCC6C5A00269FC3 /* LaunchScreen.storyboard */; };
 		9A0F82341FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F82331FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m */; };
 		9A0F823F1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F823E1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m */; };
 		9A6FDFD31FD6DB6100A3B898 /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6FDFD21FD6DB6100A3B898 /* RulesViewController.m */; };
+		9AF35B511FD9FFD800CE45CA /* RobotPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF35B501FD9FFD800CE45CA /* RobotPush.m */; };
+		9AFC86671FD9BF63001F6B5F /* RobotData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC86661FD9BF63001F6B5F /* RobotData.m */; };
+		9AFC866A1FD9E0B0001F6B5F /* RobotPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC86691FD9E0B0001F6B5F /* RobotPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,18 +47,10 @@
 		9A0ABD8A1FD186B0009EF4CF /* RulesDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulesDataModel.m; path = "RFL Build a Robot/RulesDataModel.m"; sourceTree = SOURCE_ROOT; };
 		9A0ABD8C1FD18818009EF4CF /* RulesPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RulesPush.h; path = "RFL Build a Robot/RulesPush.h"; sourceTree = SOURCE_ROOT; };
 		9A0ABD8D1FD18818009EF4CF /* RulesPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulesPush.m; path = "RFL Build a Robot/RulesPush.m"; sourceTree = SOURCE_ROOT; };
-		9A0CC4CF1FD71E3C00978EE9 /* GeneralRulesPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralRulesPush.h; sourceTree = "<group>"; };
-		9A0CC4D01FD71E3C00978EE9 /* GeneralRulesPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralRulesPush.m; sourceTree = "<group>"; };
-		9A0CC4D21FD71E6400978EE9 /* GeneralRulesDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralRulesDataModel.h; sourceTree = "<group>"; };
-		9A0CC4D31FD71E6400978EE9 /* GeneralRulesDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralRulesDataModel.m; sourceTree = "<group>"; };
 		9A0F82131FCC6C5A00269FC3 /* RFL Build a Robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RFL Build a Robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0F82171FCC6C5A00269FC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A0F82191FCC6C5A00269FC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A0F821A1FCC6C5A00269FC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A0F821C1FCC6C5A00269FC3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		9A0F821D1FCC6C5A00269FC3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		9A0F821F1FCC6C5A00269FC3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		9A0F82201FCC6C5A00269FC3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		9A0F82231FCC6C5A00269FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A0F82251FCC6C5A00269FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A0F82281FCC6C5A00269FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,6 +63,12 @@
 		9A0F82401FCC6C5B00269FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A6FDFD11FD6DB6100A3B898 /* RulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RulesViewController.h; path = "RFL Build a Robot/RulesViewController.h"; sourceTree = SOURCE_ROOT; };
 		9A6FDFD21FD6DB6100A3B898 /* RulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulesViewController.m; path = "RFL Build a Robot/RulesViewController.m"; sourceTree = SOURCE_ROOT; };
+		9AF35B4F1FD9FFD800CE45CA /* RobotPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotPush.h; sourceTree = "<group>"; };
+		9AF35B501FD9FFD800CE45CA /* RobotPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotPush.m; sourceTree = "<group>"; };
+		9AFC86651FD9BF63001F6B5F /* RobotData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotData.h; sourceTree = "<group>"; };
+		9AFC86661FD9BF63001F6B5F /* RobotData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotData.m; sourceTree = "<group>"; };
+		9AFC86681FD9E0B0001F6B5F /* RobotPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotPickerViewController.h; sourceTree = "<group>"; };
+		9AFC86691FD9E0B0001F6B5F /* RobotPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotPickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,59 +96,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A0CC4C51FD71AF700978EE9 /* Connection */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Connection;
-			sourceTree = "<group>";
-		};
-		9A0CC4C61FD71AF700978EE9 /* General Rules */ = {
-			isa = PBXGroup;
-			children = (
-				9A0CC4CF1FD71E3C00978EE9 /* GeneralRulesPush.h */,
-				9A0CC4D01FD71E3C00978EE9 /* GeneralRulesPush.m */,
-				9A0CC4D21FD71E6400978EE9 /* GeneralRulesDataModel.h */,
-				9A0CC4D31FD71E6400978EE9 /* GeneralRulesDataModel.m */,
-			);
-			path = "General Rules";
-			sourceTree = "<group>";
-		};
-		9A0CC4C71FD71AF700978EE9 /* Materials */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Materials;
-			sourceTree = "<group>";
-		};
-		9A0CC4C81FD71AF700978EE9 /* Physical Limitations */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Physical Limitations";
-			sourceTree = "<group>";
-		};
-		9A0CC4C91FD71AF700978EE9 /* Pneumatics */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pneumatics;
-			sourceTree = "<group>";
-		};
-		9A0CC4CA1FD71AF700978EE9 /* Power */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Power;
-			sourceTree = "<group>";
-		};
-		9A0CC4CB1FD71AF700978EE9 /* Weapons and Armour */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Weapons and Armour";
-			sourceTree = "<group>";
-		};
 		9A0F820A1FCC6C5A00269FC3 = {
 			isa = PBXGroup;
 			children = (
@@ -176,12 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				9A108FC91FD713FD00EE8F89 /* Rules */,
+				9AFC86641FD9BEC2001F6B5F /* Pick-a-Bot */,
 				9A0F82191FCC6C5A00269FC3 /* AppDelegate.h */,
 				9A0F821A1FCC6C5A00269FC3 /* AppDelegate.m */,
-				9A0F821C1FCC6C5A00269FC3 /* FirstViewController.h */,
-				9A0F821D1FCC6C5A00269FC3 /* FirstViewController.m */,
-				9A0F821F1FCC6C5A00269FC3 /* SecondViewController.h */,
-				9A0F82201FCC6C5A00269FC3 /* SecondViewController.m */,
 				9A0F82221FCC6C5A00269FC3 /* Main.storyboard */,
 				9A0F82251FCC6C5A00269FC3 /* Assets.xcassets */,
 				9A0F82271FCC6C5A00269FC3 /* LaunchScreen.storyboard */,
@@ -228,15 +169,21 @@
 				9A0ABD8D1FD18818009EF4CF /* RulesPush.m */,
 				9A0ABD891FD186B0009EF4CF /* RulesDataModel.h */,
 				9A0ABD8A1FD186B0009EF4CF /* RulesDataModel.m */,
-				9A0CC4C61FD71AF700978EE9 /* General Rules */,
-				9A0CC4C81FD71AF700978EE9 /* Physical Limitations */,
-				9A0CC4C71FD71AF700978EE9 /* Materials */,
-				9A0CC4C51FD71AF700978EE9 /* Connection */,
-				9A0CC4CA1FD71AF700978EE9 /* Power */,
-				9A0CC4C91FD71AF700978EE9 /* Pneumatics */,
-				9A0CC4CB1FD71AF700978EE9 /* Weapons and Armour */,
 			);
 			path = Rules;
+			sourceTree = "<group>";
+		};
+		9AFC86641FD9BEC2001F6B5F /* Pick-a-Bot */ = {
+			isa = PBXGroup;
+			children = (
+				9AF35B4F1FD9FFD800CE45CA /* RobotPush.h */,
+				9AF35B501FD9FFD800CE45CA /* RobotPush.m */,
+				9AFC86651FD9BF63001F6B5F /* RobotData.h */,
+				9AFC86661FD9BF63001F6B5F /* RobotData.m */,
+				9AFC86681FD9E0B0001F6B5F /* RobotPickerViewController.h */,
+				9AFC86691FD9E0B0001F6B5F /* RobotPickerViewController.m */,
+			);
+			path = "Pick-a-Bot";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,15 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A0F82211FCC6C5A00269FC3 /* SecondViewController.m in Sources */,
+				9AFC86671FD9BF63001F6B5F /* RobotData.m in Sources */,
+				9AF35B511FD9FFD800CE45CA /* RobotPush.m in Sources */,
+				9AFC866A1FD9E0B0001F6B5F /* RobotPickerViewController.m in Sources */,
 				9A0ABD881FD1868F009EF4CF /* RulesTableViewController.m in Sources */,
 				9A6FDFD31FD6DB6100A3B898 /* RulesViewController.m in Sources */,
 				9A0F821B1FCC6C5A00269FC3 /* AppDelegate.m in Sources */,
 				9A0ABD8E1FD18818009EF4CF /* RulesPush.m in Sources */,
-				9A0F821E1FCC6C5A00269FC3 /* FirstViewController.m in Sources */,
 				9A0F82181FCC6C5A00269FC3 /* main.m in Sources */,
-				9A0CC4D11FD71E3C00978EE9 /* GeneralRulesPush.m in Sources */,
-				9A0CC4D41FD71E6400978EE9 /* GeneralRulesDataModel.m in Sources */,
 				9A0ABD8B1FD186B0009EF4CF /* RulesDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
