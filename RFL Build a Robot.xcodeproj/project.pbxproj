@@ -17,8 +17,7 @@
 		9A0F82291FCC6C5A00269FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0F82271FCC6C5A00269FC3 /* LaunchScreen.storyboard */; };
 		9A0F82341FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F82331FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m */; };
 		9A0F823F1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F823E1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m */; };
-		9A14DC801FDA6032006055DC /* RobotDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14DC7F1FDA6032006055DC /* RobotDataModel.m */; };
-		9A14DC841FDA659A006055DC /* PickARobotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14DC831FDA659A006055DC /* PickARobotViewController.m */; };
+		9A14DC881FDA9783006055DC /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14DC871FDA9783006055DC /* SignUpViewController.m */; };
 		9A6FDFD31FD6DB6100A3B898 /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6FDFD21FD6DB6100A3B898 /* RulesViewController.m */; };
 		9AF35B511FD9FFD800CE45CA /* RobotPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF35B501FD9FFD800CE45CA /* RobotPush.m */; };
 		9AFC86671FD9BF63001F6B5F /* RobotData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC86661FD9BF63001F6B5F /* RobotData.m */; };
@@ -63,10 +62,8 @@
 		9A0F823A1FCC6C5B00269FC3 /* RFL Build a RobotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RFL Build a RobotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0F823E1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFL_Build_a_RobotUITests.m; sourceTree = "<group>"; };
 		9A0F82401FCC6C5B00269FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A14DC7E1FDA6032006055DC /* RobotDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RobotDataModel.h; path = ../RobotDataModel.h; sourceTree = "<group>"; };
-		9A14DC7F1FDA6032006055DC /* RobotDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RobotDataModel.m; path = ../RobotDataModel.m; sourceTree = "<group>"; };
-		9A14DC821FDA659A006055DC /* PickARobotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickARobotViewController.h; sourceTree = "<group>"; };
-		9A14DC831FDA659A006055DC /* PickARobotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickARobotViewController.m; sourceTree = "<group>"; };
+		9A14DC861FDA9783006055DC /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		9A14DC871FDA9783006055DC /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		9A6FDFD11FD6DB6100A3B898 /* RulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RulesViewController.h; path = "RFL Build a Robot/RulesViewController.h"; sourceTree = SOURCE_ROOT; };
 		9A6FDFD21FD6DB6100A3B898 /* RulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulesViewController.m; path = "RFL Build a Robot/RulesViewController.m"; sourceTree = SOURCE_ROOT; };
 		9AF35B4F1FD9FFD800CE45CA /* RobotPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotPush.h; sourceTree = "<group>"; };
@@ -126,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				9A108FC91FD713FD00EE8F89 /* Rules */,
-				9A14DC811FDA6565006055DC /* Pick-a-Bot Clean */,
 				9AFC86641FD9BEC2001F6B5F /* Pick-a-Bot */,
 				9A0F82191FCC6C5A00269FC3 /* AppDelegate.h */,
 				9A0F821A1FCC6C5A00269FC3 /* AppDelegate.m */,
@@ -134,6 +130,7 @@
 				9A0F82251FCC6C5A00269FC3 /* Assets.xcassets */,
 				9A0F82271FCC6C5A00269FC3 /* LaunchScreen.storyboard */,
 				9A0F822A1FCC6C5A00269FC3 /* Info.plist */,
+				9A14DC851FDA9740006055DC /* Sign-Up */,
 				9A0F82161FCC6C5A00269FC3 /* Supporting Files */,
 			);
 			path = "RFL Build a Robot";
@@ -180,16 +177,14 @@
 			path = Rules;
 			sourceTree = "<group>";
 		};
-		9A14DC811FDA6565006055DC /* Pick-a-Bot Clean */ = {
+		9A14DC851FDA9740006055DC /* Sign-Up */ = {
 			isa = PBXGroup;
 			children = (
-				9A14DC7E1FDA6032006055DC /* RobotDataModel.h */,
-				9A14DC7F1FDA6032006055DC /* RobotDataModel.m */,
-				9A14DC821FDA659A006055DC /* PickARobotViewController.h */,
-				9A14DC831FDA659A006055DC /* PickARobotViewController.m */,
+				9A14DC861FDA9783006055DC /* SignUpViewController.h */,
+				9A14DC871FDA9783006055DC /* SignUpViewController.m */,
 			);
-			name = "Pick-a-Bot Clean";
-			path = "Pick-a-Bot/Pick-a-Bot Clean";
+			name = "Sign-Up";
+			path = "Rules/Sign-Up";
 			sourceTree = "<group>";
 		};
 		9AFC86641FD9BEC2001F6B5F /* Pick-a-Bot */ = {
@@ -340,12 +335,11 @@
 			files = (
 				9AFC86671FD9BF63001F6B5F /* RobotData.m in Sources */,
 				9AF35B511FD9FFD800CE45CA /* RobotPush.m in Sources */,
-				9A14DC841FDA659A006055DC /* PickARobotViewController.m in Sources */,
 				9AFC866A1FD9E0B0001F6B5F /* RobotPickerViewController.m in Sources */,
 				9A0ABD881FD1868F009EF4CF /* RulesTableViewController.m in Sources */,
 				9A6FDFD31FD6DB6100A3B898 /* RulesViewController.m in Sources */,
 				9A0F821B1FCC6C5A00269FC3 /* AppDelegate.m in Sources */,
-				9A14DC801FDA6032006055DC /* RobotDataModel.m in Sources */,
+				9A14DC881FDA9783006055DC /* SignUpViewController.m in Sources */,
 				9A0ABD8E1FD18818009EF4CF /* RulesPush.m in Sources */,
 				9A0F82181FCC6C5A00269FC3 /* main.m in Sources */,
 				9A0ABD8B1FD186B0009EF4CF /* RulesDataModel.m in Sources */,
