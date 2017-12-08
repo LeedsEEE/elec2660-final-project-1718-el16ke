@@ -14,10 +14,12 @@
 
 @property (weak, nonatomic) IBOutlet UIPickerView *RobotPicker;
 
-@property (weak, nonatomic) IBOutlet UILabel *RobotTitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *RobotSpeedLabel;
 @property (weak, nonatomic) IBOutlet UILabel *RobotDescriptionLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *RobotImage;
 
+@property (weak, nonatomic) IBOutlet UILabel *RobotWeaponLabel;
+@property (weak, nonatomic) IBOutlet UILabel *RobotWeightLabel;
 
 @property (strong, nonatomic) RobotData *robotData;
 

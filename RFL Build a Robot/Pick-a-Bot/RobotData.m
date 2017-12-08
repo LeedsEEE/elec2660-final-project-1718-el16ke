@@ -15,6 +15,8 @@
 {
     self = [super init];
     if (self){
+        
+        //Note: This is the remaining library from a previous attempt at a tableview, left untouched as backup and cross reference with pickerview
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         
@@ -143,6 +145,7 @@
         Terminator.Robotdetail = @"X-Terminator's weapons were originally a spiked axe to impale and a front scoop to trap opponents. It also had a pneumatic spike on each side to assist in self-righting, was armoured in 25mm thick aluminium sheet and was powered by hatchback car starter motors to drive it up to 20 mph. The original X-Terminator was painted red, purple and black, with artwork depicting the eponymous humanoids from the Terminator film franchise added to the sides. It was four-wheel driven, as with later versions, but lacked a baseplate, leaving its drive chains completely exposed; this aspect often left Jonathan Pearce to believe that X-Terminator ran on tracks.";
         
         
+        
         [self.Robot addObject:spawn];
         [self.Robot addObject:bulldog];
         [self.Robot addObject:firestorm];
@@ -163,12 +166,11 @@
         [self.Robot addObject:Bodyhammer];
         [self.Robot addObject:Terminator];
 
-
-
         
     }
     return self;
 }
+
 
 
 
