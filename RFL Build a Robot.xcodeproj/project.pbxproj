@@ -18,6 +18,9 @@
 		9A0F82341FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F82331FCC6C5A00269FC3 /* RFL_Build_a_RobotTests.m */; };
 		9A0F823F1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F823E1FCC6C5B00269FC3 /* RFL_Build_a_RobotUITests.m */; };
 		9A14DC881FDA9783006055DC /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A14DC871FDA9783006055DC /* SignUpViewController.m */; };
+		9A14DC9A1FDAB47E006055DC /* icons8-wrench-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A14DC971FDAB47E006055DC /* icons8-wrench-50.png */; };
+		9A14DC9B1FDAB47E006055DC /* icons8-sign-up-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A14DC981FDAB47E006055DC /* icons8-sign-up-50.png */; };
+		9A14DC9C1FDAB47E006055DC /* icons8-rules-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A14DC991FDAB47E006055DC /* icons8-rules-50.png */; };
 		9A6FDFD31FD6DB6100A3B898 /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6FDFD21FD6DB6100A3B898 /* RulesViewController.m */; };
 		9AF35B511FD9FFD800CE45CA /* RobotPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF35B501FD9FFD800CE45CA /* RobotPush.m */; };
 		9AFC86671FD9BF63001F6B5F /* RobotData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFC86661FD9BF63001F6B5F /* RobotData.m */; };
@@ -64,6 +67,9 @@
 		9A0F82401FCC6C5B00269FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A14DC861FDA9783006055DC /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		9A14DC871FDA9783006055DC /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		9A14DC971FDAB47E006055DC /* icons8-wrench-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-wrench-50.png"; sourceTree = "<group>"; };
+		9A14DC981FDAB47E006055DC /* icons8-sign-up-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-sign-up-50.png"; sourceTree = "<group>"; };
+		9A14DC991FDAB47E006055DC /* icons8-rules-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-rules-50.png"; sourceTree = "<group>"; };
 		9A6FDFD11FD6DB6100A3B898 /* RulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RulesViewController.h; path = "RFL Build a Robot/RulesViewController.h"; sourceTree = SOURCE_ROOT; };
 		9A6FDFD21FD6DB6100A3B898 /* RulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RulesViewController.m; path = "RFL Build a Robot/RulesViewController.m"; sourceTree = SOURCE_ROOT; };
 		9AF35B4F1FD9FFD800CE45CA /* RobotPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotPush.h; sourceTree = "<group>"; };
@@ -128,6 +134,9 @@
 				9A0F821A1FCC6C5A00269FC3 /* AppDelegate.m */,
 				9A0F82221FCC6C5A00269FC3 /* Main.storyboard */,
 				9A0F82251FCC6C5A00269FC3 /* Assets.xcassets */,
+				9A14DC971FDAB47E006055DC /* icons8-wrench-50.png */,
+				9A14DC981FDAB47E006055DC /* icons8-sign-up-50.png */,
+				9A14DC991FDAB47E006055DC /* icons8-rules-50.png */,
 				9A0F82271FCC6C5A00269FC3 /* LaunchScreen.storyboard */,
 				9A0F822A1FCC6C5A00269FC3 /* Info.plist */,
 				9A14DC851FDA9740006055DC /* Sign-Up */,
@@ -307,8 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0F82291FCC6C5A00269FC3 /* LaunchScreen.storyboard in Resources */,
+				9A14DC9A1FDAB47E006055DC /* icons8-wrench-50.png in Resources */,
+				9A14DC9C1FDAB47E006055DC /* icons8-rules-50.png in Resources */,
 				9A0F82261FCC6C5A00269FC3 /* Assets.xcassets in Resources */,
 				9A0F82241FCC6C5A00269FC3 /* Main.storyboard in Resources */,
+				9A14DC9B1FDAB47E006055DC /* icons8-sign-up-50.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,8 +25,8 @@
     
     self.RulesTitleLabel.title = self.RulesPush.SubSectionTitle;
     
-    [self.navigationController.navigationBar setTitleTextAttributes:
-     @{NSForegroundColorAttributeName:[UIColor yellowColor]}];
+  //  [self.navigationController.navigationBar setTitleTextAttributes:
+  //   @{NSForegroundColorAttributeName:[UIColor yellowColor]}];
     
     
 

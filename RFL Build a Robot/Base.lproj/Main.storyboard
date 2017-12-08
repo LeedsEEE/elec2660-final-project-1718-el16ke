@@ -254,7 +254,7 @@
                             <constraint firstItem="pzg-xq-Eoc" firstAttribute="leading" secondItem="JtW-iO-OJ9" secondAttribute="trailing" id="y4q-pi-RUU"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pick-a-Bot" id="VYB-aU-JXx"/>
+                    <tabBarItem key="tabBarItem" title="Pick-a-Bot" image="icons8-wrench-50.png" id="VYB-aU-JXx"/>
                     <navigationItem key="navigationItem" id="KgE-r8-a3c"/>
                     <connections>
                         <outlet property="RobotDescriptionLabel" destination="sE9-OC-3OD" id="kPk-Xm-nd1"/>
@@ -273,11 +273,18 @@
         <scene sceneID="8J6-E6-Rwr">
             <objects>
                 <navigationController id="Uey-HM-wXe" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Rules" id="ZaD-mq-Vdv"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="oEJ-io-bWe">
+                    <tabBarItem key="tabBarItem" title="Rules" image="icons8-rules-50.png" id="ZaD-mq-Vdv"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="oEJ-io-bWe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="1" green="0.81960784310000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                        <color key="tintColor" red="1" green="0.81960784310000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.23137254900000001" green="0.0" blue="0.44705882349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="1" green="0.81960784310000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textShadowColor" red="1" green="0.81960784310000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="Qdg-RM-l9z" kind="relationship" relationship="rootViewController" id="LN8-LK-aip"/>
@@ -312,7 +319,7 @@
                             <constraint firstItem="9Wn-iD-l8a" firstAttribute="bottom" secondItem="O5b-YI-DdC" secondAttribute="top" id="g10-bm-UEd"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Sign-up" id="XD8-k5-3aL"/>
+                    <tabBarItem key="tabBarItem" title="Sign-up" image="icons8-sign-up-50.png" id="XD8-k5-3aL"/>
                     <connections>
                         <outlet property="SignUpWebsite" destination="9Wn-iD-l8a" id="mcu-dk-0Eb"/>
                     </connections>
@@ -332,6 +339,7 @@
                         <color key="backgroundColor" red="1" green="0.81960784310000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="1" green="0.81960784310000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="barTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.81960784310000001" blue="0.039215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="Uey-HM-wXe" kind="relationship" relationship="viewControllers" id="AM7-Lb-WTa"/>
@@ -344,4 +352,9 @@
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-rules-50.png" width="28" height="28"/>
+        <image name="icons8-sign-up-50.png" width="28" height="28"/>
+        <image name="icons8-wrench-50.png" width="28" height="28"/>
+    </resources>
 </document>
